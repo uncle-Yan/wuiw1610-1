@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/react.js"></script>
+    <script src="js/react-dom.js"></script>
+    <script src="js/babel.js"></script>
+</head>
+<body>
+	<div id="box">
+
+	</div>
+</body>
+<!-- <script type="text/babel">
+function Hello(){
+	return (
+		<div>
+			<h2>介绍JSX</h2>
+			<p>JSX生成React“元素”。我们将在下一节中探索将它们渲染到DOM 。下面你可以找到JSX的基础知识，让你开始使用。</p>
+		</div>)
+		
+}
+    ReactDOM.render(
+        <Hello />,
+        document.querySelector('#box'),
+        function(){
+       		console.log('渲染完成');
+    	})
+
+</script> -->
+
+<script type="text/babel">
+
+    ReactDOM.render(
+        <div>
+			<h2>介绍JSX</h2>
+			<p>JSX生成React“元素”。我们将在下一节中探索将它们渲染到DOM 。下面你可以找到JSX的基础知识，让你开始使用。</p>
+		</div>,
+        document.querySelector('#box'),
+        function(){
+       		console.log('渲染完成');
+    	})
+
+</script>
+
+<!-- 注释 -->
+<!-- <script type="text/babel">
+function Hello(){
+	return (
+		{/*这是块注释*/}
+		<div>
+			<h2 id='aa' //单行注释
+			class="qq">介绍JSX</h2>
+			<p>JSX生成React“元素”。我们将在下一节中探索将它们渲染到DOM 。下面你可以找到JSX的基础知识，让你开始使用。</p>
+		</div>)
+		
+}
+    ReactDOM.render(
+        <Hello />,
+        document.querySelector('#box'),
+        function(){
+       		console.log('渲染完成');
+    	})
+
+</script> -->
+
+
+</html>
